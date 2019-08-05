@@ -1,0 +1,23 @@
+Yields before optimization
+	VBF:         5.816 +/- 0.0       
+	ggF:        19.068 +/- 0.1       
+	ZZ:        265.013 +/- 1.2       
+
+Z values
+  before optimization:       0.344
+  after optimization:        3.550
+
+Best cuts
+	Z1mass    	  <  92.33
+	Z2mass    	  <  32.52
+
+Yields after optimization (and relative efficiencies)
+	count_VBF            3.822
+	fraction_VBF         0.657
+
+	count_ggF           12.588
+	fraction_ggF         0.660
+
+	count_ZZ            16.529
+	fraction_ZZ          0.062
+

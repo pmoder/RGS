@@ -31,20 +31,44 @@ def nameonly(s):
     import posixpath
     return posixpath.splitext(posixpath.split(s)[1])[0]
 
-def signalSignificance(s, b, which=1):
-    # Compute various measures of significance
-    Z = 0.0
-    if which == 1:
-        #   Z  = sign(LR) * sqrt(2*|LR|)
-        # where LR = log(Poisson(s+b|s+b)/Poisson(s+b|b))
-        if b > 1:
-            Z = 2*((s+b)*log((s+b)/b)-s)
-            absZ = abs(Z)
-            if absZ != 0:
-                Z = Z*sqrt(absZ)/absZ
-            else:
-                Z = 0.0
-    return Z
+def signalSignificance(s, b, sigma=0.0, which=1):
+    # Compute various measures of significance --> old
+    if sigma == 0.0:
+        Z = 0.0
+        if which == 1:
+            #   Z  = sign(LR) * sqrt(2*|LR|)
+            # where LR = log(Poisson(s+b|s+b)/Poisson(s+b|b))
+            if b > 1:
+                Z = 2*((s+b)*log((s+b)/b)-s)
+                absZ = abs(Z)
+                if absZ != 0:
+                    Z = Z*sqrt(absZ)/absZ
+                else:
+                    Z = 0.0
+        return Z
+
+    # Computes the significance recommended by ATLAS with taking systematics into account --> new
+    else:
+        n = s + b
+#        sigma *= b
+
+        # if there are no events the code would crash due to divison by zero
+        if (n == 0.0 and b == 0.0):
+            return 0.0
+
+        f1 = n*log((n*(b+sigma**2))/(b**2 + (n*sigma**2)))
+        f2 = -(b**2/sigma**2)*log(1+((sigma**2*(n-b))/(b*(b+sigma**2))))
+
+        # sometimes there can be mistakes due to rounding, which leads to f1+f2<0. This is taken care of here.
+        if abs(f1+f2) < 1e-10:
+            Zn = 0.0
+        else:
+            Zn = sqrt(2*(f1+f2))
+
+        if n<b:
+            return -1*Zn
+        else:
+            return Zn
 
 def getEntries(filename, treename):
     tfile = TFile(filename)

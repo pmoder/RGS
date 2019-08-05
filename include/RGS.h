@@ -173,6 +173,7 @@ private:
   vdouble     _totals;
   vdouble     _errors;
   vvdouble    _counts;
+  vvdouble    _sqrdWeights;
   vstring _resultname;
   
   std::vector<std::vector<int> > _cutpointindex;

@@ -33,6 +33,7 @@ def fillZ1massZ2mass(cut):
     bntuple = Ntuple('../../data/ntuple_ZZ4L.root', 'Analysis')
     total = 0
     for ii, event in enumerate(bntuple):
+	print(ii)
         if cut(event): continue
 
         hb.Fill(event.Z1mass, event.Z2mass)
