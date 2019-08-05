@@ -1,0 +1,413 @@
+Yields before optimization
+	signal:       436.213 +/- 19.6      
+	background:     677023.883 +/- 763.4     
+
+Z values
+  before optimization:       0.530
+  after optimization:        2.384
+
+Best cuts
+	mt        	  > 277244.81
+	met       	  > 273618.50
+	dPhiJ1Met 	      1.49	      3.00
+	dPhiJ1l   	      1.51	      3.04
+	mb1j1     	  < 279534.47
+	mt2w      	  > 216718.92
+
+Yields after optimization (and relative efficiencies)
+	count_signal        22.386
+	fraction_signal      0.051
+
+	count_diboson1       0.000
+	fraction_diboson1      0.000
+
+	count_diboson2       0.000
+	fraction_diboson2      0.000
+
+	count_diboson3       0.000
+	fraction_diboson3      0.000
+
+	count_diboson4       0.000
+	fraction_diboson4      0.000
+
+	count_diboson5       0.000
+	fraction_diboson5      0.000
+
+	count_diboson6       0.000
+	fraction_diboson6      0.000
+
+	count_diboson7       0.000
+	fraction_diboson7      0.000
+
+	count_diboson8       0.000
+	fraction_diboson8      0.000
+
+	count_diboson9       0.000
+	fraction_diboson9      0.000
+
+	count_diboson10      0.106
+	fraction_diboson10      0.001
+
+	count_diboson11      1.537
+	fraction_diboson11      0.003
+
+	count_diboson12      3.163
+	fraction_diboson12      0.006
+
+	count_diboson13      0.000
+	fraction_diboson13      0.000
+
+	count_diboson14      0.009
+	fraction_diboson14      0.002
+
+	count_diboson15      0.224
+	fraction_diboson15      0.009
+
+	count_singletop1      0.089
+	fraction_singletop1      0.001
+
+	count_singletop2      0.000
+	fraction_singletop2      0.000
+
+	count_singletop3      0.000
+	fraction_singletop3      0.000
+
+	count_singletop4      6.520
+	fraction_singletop4      0.000
+
+	count_singletop5      5.589
+	fraction_singletop5      0.000
+
+	count_singletop6      0.000
+	fraction_singletop6      0.000
+
+	count_singletop7      0.000
+	fraction_singletop7      0.000
+
+	count_ttV1           0.901
+	fraction_ttV1        0.001
+
+	count_ttV2           3.361
+	fraction_ttV2        0.008
+
+	count_ttV3          -0.066
+	fraction_ttV3       -0.000
+
+	count_ttV4           0.077
+	fraction_ttV4        0.004
+
+	count_ttV5           0.037
+	fraction_ttV5        0.002
+
+	count_ttV6           0.007
+	fraction_ttV6        0.000
+
+	count_ttbar1         4.568
+	fraction_ttbar1      0.000
+
+	count_ttbar2         3.581
+	fraction_ttbar2      0.000
+
+	count_ttbar3         0.731
+	fraction_ttbar3      0.000
+
+	count_ttbar4        10.058
+	fraction_ttbar4      0.000
+
+	count_wjets1         0.000
+	fraction_wjets1      0.000
+
+	count_wjets2         0.000
+	fraction_wjets2      0.000
+
+	count_wjets3         0.000
+	fraction_wjets3      0.000
+
+	count_wjets4         0.000
+	fraction_wjets4      0.000
+
+	count_wjets5         0.000
+	fraction_wjets5      0.000
+
+	count_wjets6        -0.297
+	fraction_wjets6     -0.001
+
+	count_wjets7         0.000
+	fraction_wjets7      0.000
+
+	count_wjets8         1.399
+	fraction_wjets8      0.000
+
+	count_wjets9         5.696
+	fraction_wjets9      0.001
+
+	count_wjets10        4.389
+	fraction_wjets10      0.001
+
+	count_wjets11        1.287
+	fraction_wjets11      0.000
+
+	count_wjets12        3.381
+	fraction_wjets12      0.000
+
+	count_wjets13        1.660
+	fraction_wjets13      0.000
+
+	count_wjets14        0.243
+	fraction_wjets14      0.000
+
+	count_wjets15        0.000
+	fraction_wjets15     -0.000
+
+	count_wjets16        0.000
+	fraction_wjets16      0.000
+
+	count_wjets17        0.000
+	fraction_wjets17      0.000
+
+	count_wjets18        0.000
+	fraction_wjets18      0.000
+
+	count_wjets19        0.000
+	fraction_wjets19      0.000
+
+	count_wjets20        0.000
+	fraction_wjets20      0.000
+
+	count_wjets21        2.198
+	fraction_wjets21      0.001
+
+	count_wjets22        0.000
+	fraction_wjets22      0.000
+
+	count_wjets23        3.348
+	fraction_wjets23      0.001
+
+	count_wjets24        0.833
+	fraction_wjets24      0.000
+
+	count_wjets25        4.602
+	fraction_wjets25      0.001
+
+	count_wjets26        3.455
+	fraction_wjets26      0.000
+
+	count_wjets27        5.197
+	fraction_wjets27      0.000
+
+	count_wjets28        0.832
+	fraction_wjets28      0.000
+
+	count_wjets29        0.000
+	fraction_wjets29        nan
+
+	count_wjets30        0.000
+	fraction_wjets30      0.000
+
+	count_wjets31        0.000
+	fraction_wjets31      0.000
+
+	count_wjets32        0.000
+	fraction_wjets32      0.000
+
+	count_wjets33        0.000
+	fraction_wjets33      0.000
+
+	count_wjets34        0.000
+	fraction_wjets34      0.000
+
+	count_wjets35        0.000
+	fraction_wjets35      0.000
+
+	count_wjets36        0.264
+	fraction_wjets36      0.000
+
+	count_wjets37        0.000
+	fraction_wjets37      0.000
+
+	count_wjets38        0.000
+	fraction_wjets38      0.000
+
+	count_wjets39        1.804
+	fraction_wjets39      0.001
+
+	count_wjets40        0.000
+	fraction_wjets40      0.000
+
+	count_wjets41        0.023
+	fraction_wjets41      0.000
+
+	count_zjets1         0.000
+	fraction_zjets1      0.000
+
+	count_zjets2         0.000
+	fraction_zjets2      0.000
+
+	count_zjets3         0.000
+	fraction_zjets3      0.000
+
+	count_zjets4         0.000
+	fraction_zjets4      0.000
+
+	count_zjets5         0.000
+	fraction_zjets5      0.000
+
+	count_zjets6         0.000
+	fraction_zjets6      0.000
+
+	count_zjets7         0.000
+	fraction_zjets7      0.000
+
+	count_zjets8         0.000
+	fraction_zjets8      0.000
+
+	count_zjets9         0.111
+	fraction_zjets9      0.001
+
+	count_zjets10        0.000
+	fraction_zjets10      0.000
+
+	count_zjets11        0.000
+	fraction_zjets11      0.000
+
+	count_zjets12        0.000
+	fraction_zjets12      0.000
+
+	count_zjets13        0.072
+	fraction_zjets13      0.001
+
+	count_zjets14        0.017
+	fraction_zjets14      0.001
+
+	count_zjets15        0.000
+	fraction_zjets15        nan
+
+	count_zjets16        0.000
+	fraction_zjets16      0.000
+
+	count_zjets17        0.000
+	fraction_zjets17      0.000
+
+	count_zjets18        0.000
+	fraction_zjets18      0.000
+
+	count_zjets19        0.000
+	fraction_zjets19        nan
+
+	count_zjets20        0.000
+	fraction_zjets20      0.000
+
+	count_zjets21        0.000
+	fraction_zjets21      0.000
+
+	count_zjets22        0.000
+	fraction_zjets22      0.000
+
+	count_zjets23        0.000
+	fraction_zjets23      0.000
+
+	count_zjets24        0.000
+	fraction_zjets24      0.000
+
+	count_zjets25        0.000
+	fraction_zjets25      0.000
+
+	count_zjets26        0.000
+	fraction_zjets26      0.000
+
+	count_zjets27        0.000
+	fraction_zjets27      0.000
+
+	count_zjets28        0.000
+	fraction_zjets28      0.000
+
+	count_zjets29        0.000
+	fraction_zjets29      0.000
+
+	count_zjets30        0.000
+	fraction_zjets30      0.000
+
+	count_zjets31        0.000
+	fraction_zjets31      0.000
+
+	count_zjets32        0.000
+	fraction_zjets32      0.000
+
+	count_zjets33        0.000
+	fraction_zjets33     -0.000
+
+	count_zjets34        0.000
+	fraction_zjets34      0.000
+
+	count_zjets35        0.000
+	fraction_zjets35      0.000
+
+	count_zjets36        0.000
+	fraction_zjets36      0.000
+
+	count_zjets37        0.000
+	fraction_zjets37      0.000
+
+	count_zjets38        0.000
+	fraction_zjets38      0.000
+
+	count_zjets39        0.000
+	fraction_zjets39      0.000
+
+	count_zjets40        0.000
+	fraction_zjets40      0.000
+
+	count_zjets41        0.000
+	fraction_zjets41      0.000
+
+	count_zjets42        0.000
+	fraction_zjets42      0.000
+
+	count_zjets43        0.000
+	fraction_zjets43      0.000
+
+	count_zjets44        0.000
+	fraction_zjets44      0.000
+
+	count_zjets45        0.000
+	fraction_zjets45      0.000
+
+	count_zjets46        0.000
+	fraction_zjets46      0.000
+
+	count_zjets47        0.000
+	fraction_zjets47      0.000
+
+	count_zjets48        0.000
+	fraction_zjets48      0.000
+
+	count_zjets49        0.000
+	fraction_zjets49      0.000
+
+	count_zjets50        0.000
+	fraction_zjets50      0.000
+
+	count_zjets51        0.000
+	fraction_zjets51      0.000
+
+	count_zjets52        0.000
+	fraction_zjets52        nan
+
+	count_zjets53        0.000
+	fraction_zjets53      0.000
+
+	count_zjets54        0.000
+	fraction_zjets54      0.000
+
+	count_zjets55        0.000
+	fraction_zjets55        nan
+
+	count_zjets56        0.000
+	fraction_zjets56      0.000
+
+	count_zjets57        0.000
+	fraction_zjets57      0.000
+
+	count_zjets58        0.000
+	fraction_zjets58        nan
+

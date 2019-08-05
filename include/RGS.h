@@ -61,7 +61,8 @@ bool slurpTable(std::string filename,
 		double  fileweight=1,
 		double& tot=dNULL,
 		double& err=dNULL,
-		int&    weightindex=iNEG1);
+		int&    weightindex=iNEG1,
+		double additionalWeight = 1.0 );
 
 /** Return version number of RGS.
  */
@@ -79,14 +80,16 @@ public:
   RGS(std::string cutdatafilename, int start=0, int numrows=0, 
       std::string treename="",
       std::string weightname="",
-      std::string selection="");
+      std::string selection="",
+      float additionalWeight = 1.0);
 
   /**
    */
   RGS(std::vector<std::string>& cutdatafilename, int start=0, int numrows=0,
       std::string treename="",
       std::string weightname="",
-      std::string selection="");
+      std::string selection="",
+      float additionalWeight = 1.0);
 
   virtual ~RGS();
 
@@ -160,6 +163,7 @@ private:
   std::string _treename;
   std::string _weightname;
   std::string _selection;
+  float _additionalWeight;
   
   vstring                   _searchname;
   std::vector< vvdouble >   _searchdata;
@@ -169,6 +173,7 @@ private:
   vdouble     _totals;
   vdouble     _errors;
   vvdouble    _counts;
+  vvdouble    _sqrdWeights;
   vstring _resultname;
   
   std::vector<std::vector<int> > _cutpointindex;

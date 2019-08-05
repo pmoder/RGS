@@ -125,7 +125,8 @@ bool slurpTable(string filename,
 		double  fileweight,		
 		double& tot,
 		double& err,
-		int&    weightindex)		
+		int&    weightindex,
+		double additionalWeight)		
 {
   cout << "\t" << filename << endl;
   header.clear();
@@ -256,7 +257,7 @@ bool slurpTable(string filename,
 	  data.push_back(dbuffer);
 	  
 	  double w = fileweight;
-	  if ( weightindex > -1 ) w *= dbuffer[weightindex];
+	  if ( weightindex > -1 ) w *= additionalWeight * dbuffer[weightindex];
 
 	  tot += w;
 	  err += w * w;
@@ -352,11 +353,13 @@ RGS::RGS()
 RGS::RGS(vstring& cutdatafilenames, int start, int numrows, 
 	 string treename,
 	 string weightname,
-	 string selection)
+	 string selection,
+	 float additionalWeight )
   : _status(0),
     _treename(treename),
     _weightname(weightname),
     _selection(selection),
+    _additionalWeight(additionalWeight),
     _weightindex(vector<int>()),
     _weight(vector<double>()),
     _totals(vector<double>()),
@@ -379,15 +382,17 @@ RGS::RGS(vstring& cutdatafilenames, int start, int numrows,
 RGS::RGS(string cutdatafilename, int start, int numrows, 
 	 string treename,
 	 string weightname,
-	 string selection)
+	 string selection,
+	 float additionalWeight )
   : _status(0),
     _treename(treename),
     _weightname(weightname),
     _selection(selection),
+    _additionalWeight(additionalWeight),
     _weightindex(vector<int>()),
     _weight(vector<double>()),    
     _totals(vector<double>()),
-    _errors(vector<double>())    
+    _errors(vector<double>()) 
 {
   vstring cutdatafilenames(1, cutdatafilename);
   _init(cutdatafilenames, start, numrows, _treename, _selection);
@@ -459,7 +464,8 @@ RGS::add(string searchfilename,
 		    _weight.back(),
 		    _totals.back(),
 		    _errors.back(),
-		    _weightindex.back()) )
+		    _weightindex.back(),
+		    _additionalWeight) )
     error("RGS: unable to read file " + searchfilename);
 
   cout << "\tSearch data will be identified with " << resultname << " in the RGS results file." << endl;
@@ -505,7 +511,8 @@ RGS::add(vector<string>& searchfilenames,
 			_weight.back(),
 			_totals.back(),
 			_errors.back(),
-			_weightindex.back()) )
+			_weightindex.back(),
+			_additionalWeight ) )
           error("RGS: unable to read file " + searchfilenames[ifile]);
     }
 }
@@ -635,8 +642,11 @@ void RGS::run(vstring&  cutvar,        // Variables defining cuts
   // _totals.resize(_searchdata.size(),0.0);
   _errors.resize(_searchdata.size(),0.0);
   _counts.resize(_searchdata.size(),vdouble());
-  for (int i = 0; i < (int)_counts.size(); i++)
+  _sqrdWeights.resize(_searchdata.size(),vdouble());
+  for (int i = 0; i < (int)_counts.size(); i++){
     _counts[i].resize(_cutdata.size(), 0.0);
+    _sqrdWeights[i].resize(_cutdata.size(), 0.0);
+  }
 
   // ----------------------------------------------------------
   // Decode cuts
@@ -880,6 +890,7 @@ void RGS::run(vstring&  cutvar,        // Variables defining cuts
           /////////////////////////////////////////
           
           _counts[file][cutpoint] = 0; // Count per file per cut-point
+	  _sqrdWeights[file][cutpoint] = 0; // Squared Weights Sum per file per cutpoint
           
           for (int row = 0; row < (int)sdata.size(); row++)
             {
@@ -995,7 +1006,7 @@ void RGS::run(vstring&  cutvar,        // Variables defining cuts
               // of current cut-point
 	      
 	      double weight = _weight[file];
-              if ( useEventWeight ) weight = weight * sdata[row][weightindex];
+              if ( useEventWeight ) weight = weight * _additionalWeight * sdata[row][weightindex];
               
               // if ( cutpoint == 0 )
 	      // 	{
@@ -1003,7 +1014,10 @@ void RGS::run(vstring&  cutvar,        // Variables defining cuts
 	      // 	  _errors[file] += weight*weight;
 	      // 	}
           
-              if ( passed ) _counts[file][cutpoint] += weight;
+              if ( passed ){
+		 _counts[file][cutpoint] +=  weight;
+		 _sqrdWeights[file][cutpoint] += weight*weight;
+	      }
 
 #ifdef RGSDEBUG
               if ( DEBUG > 2 )
@@ -1349,7 +1363,12 @@ RGS::_saveToTextFile(string resultfilename)
       name = string("count")+string(postfix);
       varname.push_back(name);
       varsize.push_back(1);
-      cout << "\t" << name << "\t" << varsize.back() << endl;		      
+      cout << "\t" << name << "\t" << varsize.back() << endl;
+
+      name = string("sqrdWeights")+string(postfix);
+      varname.push_back(name);
+      varsize.push_back(1);
+      cout << "\t" << name << "\t" << varsize.back() << endl;
 
       name = string("fraction")+string(postfix);      
       varname.push_back(name);
@@ -1453,8 +1472,9 @@ RGS::_saveToTextFile(string resultfilename)
       for(unsigned int i=0; i < _counts.size(); i++)
 	{
 	  float passcount = _counts[i][cutpoint];
+	  float passSqrdWeights = _sqrdWeights[i][cutpoint];
 	  float fraction  = passcount/total(i);
-	  fout << passcount << "\t" << fraction << "\t"; 
+	  fout << passcount << "\t" << passSqrdWeights << "\t" << fraction << "\t"; 
 	}
 
       // write cut-point indices
@@ -1490,6 +1510,7 @@ RGS::_saveToNtupleFile(string resultfilename)
   // Define buffers for counts and fractions
   // Note: _counts.size() = number of scanned files
   vector<float> counts(_counts.size());
+  vector<float> sqrdWeights(_sqrdWeights.size());
   vector<float> fractions(_counts.size());
 
   // Create branches for each cut. For twosided and staircase cuts, use fixed
@@ -1574,6 +1595,11 @@ RGS::_saveToNtupleFile(string resultfilename)
       tree->Branch(name, &counts[i], fmt);
       cout << "\t" << fmt << endl;
 
+      sprintf(name, "%s%s", "sqrdWeight", postfix);
+      sprintf(fmt,  "%s/F", name);
+      tree->Branch(name, &sqrdWeights[i], fmt);
+      cout << "\t" << fmt << endl;
+
       sprintf(name, "%s%s", "fraction", postfix);      
       sprintf(fmt, "%s/F", name);
       tree->Branch(name, &fractions[i], fmt);
@@ -1656,6 +1682,7 @@ RGS::_saveToNtupleFile(string resultfilename)
       for(unsigned int i=0; i < counts.size(); i++)
 	{
 	  counts[i]    =_counts[i][cutpoint];
+	  sqrdWeights[i] = _sqrdWeights[i][cutpoint];
 	  fractions[i] = counts[i]/total(i);
 	}
 
@@ -1788,6 +1815,7 @@ RGS::_init(vstring& cutdatafilenames, int start, int numrows,
   _totals.clear();
   _errors.clear();
   _counts.clear();
+  _sqrdWeights.clear();
 
   _status = rSUCCESS;
 

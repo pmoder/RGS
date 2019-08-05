@@ -1,0 +1,898 @@
+Yields before optimization
+	signal:       165.277 +/- 7.7       
+	background:       1235.487 +/- 11.9      
+
+Z values
+  before optimization:       0.606
+  after optimization:        1.072
+
+Best cuts
+	met       	  > 203324.06
+	mt        	  > 128372.12
+	mb1j1     	  > 96595.27
+	amt2      	  > 149304.64
+
+Yields after optimization (and relative efficiencies)
+	sigma:        90.221
+	count_signal       106.612
+	sqrdWeight_signal     38.025
+	fraction_signal      0.645
+
+	count_MC16a_diboson1      0.000
+	sqrdWeight_MC16a_diboson1      0.000
+	fraction_MC16a_diboson1        nan
+
+	count_MC16a_diboson2      0.100
+	sqrdWeight_MC16a_diboson2      0.010
+	fraction_MC16a_diboson2      1.000
+
+	count_MC16a_diboson3      0.000
+	sqrdWeight_MC16a_diboson3      0.000
+	fraction_MC16a_diboson3        nan
+
+	count_MC16a_diboson4      0.000
+	sqrdWeight_MC16a_diboson4      0.000
+	fraction_MC16a_diboson4        nan
+
+	count_MC16a_diboson5      0.031
+	sqrdWeight_MC16a_diboson5      0.000
+	fraction_MC16a_diboson5      0.572
+
+	count_MC16a_diboson6      0.345
+	sqrdWeight_MC16a_diboson6      0.005
+	fraction_MC16a_diboson6      0.574
+
+	count_MC16a_diboson7      0.481
+	sqrdWeight_MC16a_diboson7      0.005
+	fraction_MC16a_diboson7      0.644
+
+	count_MC16a_diboson8      0.000
+	sqrdWeight_MC16a_diboson8      0.000
+	fraction_MC16a_diboson8        nan
+
+	count_MC16a_diboson9      0.012
+	sqrdWeight_MC16a_diboson9      0.000
+	fraction_MC16a_diboson9      1.000
+
+	count_MC16a_singletop1      0.220
+	sqrdWeight_MC16a_singletop1      0.002
+	fraction_MC16a_singletop1      0.535
+
+	count_MC16a_singletop2      0.000
+	sqrdWeight_MC16a_singletop2      0.000
+	fraction_MC16a_singletop2      0.000
+
+	count_MC16a_singletop3      0.000
+	sqrdWeight_MC16a_singletop3      0.000
+	fraction_MC16a_singletop3        nan
+
+	count_MC16a_singletop4      3.122
+	sqrdWeight_MC16a_singletop4      0.830
+	fraction_MC16a_singletop4      0.492
+
+	count_MC16a_singletop5      1.962
+	sqrdWeight_MC16a_singletop5      0.504
+	fraction_MC16a_singletop5      0.289
+
+	count_MC16a_singletop6      0.000
+	sqrdWeight_MC16a_singletop6      0.000
+	fraction_MC16a_singletop6      0.000
+
+	count_MC16a_singletop7      0.000
+	sqrdWeight_MC16a_singletop7      0.000
+	fraction_MC16a_singletop7        nan
+
+	count_MC16a_smallbkgs1      0.263
+	sqrdWeight_MC16a_smallbkgs1      0.000
+	fraction_MC16a_smallbkgs1      0.423
+
+	count_MC16a_smallbkgs2      0.176
+	sqrdWeight_MC16a_smallbkgs2      0.001
+	fraction_MC16a_smallbkgs2      0.430
+
+	count_MC16a_smallbkgs3      0.005
+	sqrdWeight_MC16a_smallbkgs3      0.000
+	fraction_MC16a_smallbkgs3      2.109
+
+	count_MC16a_smallbkgs4     -0.003
+	sqrdWeight_MC16a_smallbkgs4      0.000
+	fraction_MC16a_smallbkgs4      1.000
+
+	count_MC16a_ttV1      1.598
+	sqrdWeight_MC16a_ttV1      0.011
+	fraction_MC16a_ttV1      0.483
+
+	count_MC16a_ttV2      7.168
+	sqrdWeight_MC16a_ttV2      0.117
+	fraction_MC16a_ttV2      0.636
+
+	count_MC16a_ttV3      0.290
+	sqrdWeight_MC16a_ttV3      0.008
+	fraction_MC16a_ttV3      0.308
+
+	count_MC16a_ttV4      0.033
+	sqrdWeight_MC16a_ttV4      0.000
+	fraction_MC16a_ttV4      0.384
+
+	count_MC16a_ttV5      0.043
+	sqrdWeight_MC16a_ttV5      0.000
+	fraction_MC16a_ttV5      0.441
+
+	count_MC16a_ttV6      0.046
+	sqrdWeight_MC16a_ttV6      0.000
+	fraction_MC16a_ttV6      0.414
+
+	count_MC16a_ttbar1     53.905
+	sqrdWeight_MC16a_ttbar1      0.795
+	fraction_MC16a_ttbar1      0.352
+
+	count_MC16a_ttbar2      8.097
+	sqrdWeight_MC16a_ttbar2      0.097
+	fraction_MC16a_ttbar2      0.425
+
+	count_MC16a_ttbar3      1.485
+	sqrdWeight_MC16a_ttbar3      0.008
+	fraction_MC16a_ttbar3      0.541
+
+	count_MC16a_ttbar4     26.596
+	sqrdWeight_MC16a_ttbar4      3.657
+	fraction_MC16a_ttbar4      0.294
+
+	count_MC16a_wjets1      0.000
+	sqrdWeight_MC16a_wjets1      0.000
+	fraction_MC16a_wjets1        nan
+
+	count_MC16a_wjets2      0.000
+	sqrdWeight_MC16a_wjets2      0.000
+	fraction_MC16a_wjets2     -0.000
+
+	count_MC16a_wjets3      0.000
+	sqrdWeight_MC16a_wjets3      0.000
+	fraction_MC16a_wjets3      0.000
+
+	count_MC16a_wjets4      0.205
+	sqrdWeight_MC16a_wjets4      0.014
+	fraction_MC16a_wjets4      0.450
+
+	count_MC16a_wjets5      0.283
+	sqrdWeight_MC16a_wjets5      0.080
+	fraction_MC16a_wjets5     16.420
+
+	count_MC16a_wjets6      0.803
+	sqrdWeight_MC16a_wjets6      0.373
+	fraction_MC16a_wjets6      0.597
+
+	count_MC16a_wjets7      0.664
+	sqrdWeight_MC16a_wjets7      0.075
+	fraction_MC16a_wjets7      0.705
+
+	count_MC16a_wjets8      0.084
+	sqrdWeight_MC16a_wjets8      0.007
+	fraction_MC16a_wjets8      0.272
+
+	count_MC16a_wjets9      0.000
+	sqrdWeight_MC16a_wjets9      0.000
+	fraction_MC16a_wjets9        nan
+
+	count_MC16a_wjets10      0.000
+	sqrdWeight_MC16a_wjets10      0.000
+	fraction_MC16a_wjets10        nan
+
+	count_MC16a_wjets11      0.000
+	sqrdWeight_MC16a_wjets11      0.000
+	fraction_MC16a_wjets11        nan
+
+	count_MC16a_wjets12      0.943
+	sqrdWeight_MC16a_wjets12      0.473
+	fraction_MC16a_wjets12      0.626
+
+	count_MC16a_wjets13      0.079
+	sqrdWeight_MC16a_wjets13      0.036
+	fraction_MC16a_wjets13      0.137
+
+	count_MC16a_wjets14      0.000
+	sqrdWeight_MC16a_wjets14      0.000
+	fraction_MC16a_wjets14        nan
+
+	count_MC16a_wjets15      0.000
+	sqrdWeight_MC16a_wjets15      0.000
+	fraction_MC16a_wjets15      0.000
+
+	count_MC16a_wjets16      1.355
+	sqrdWeight_MC16a_wjets16      0.873
+	fraction_MC16a_wjets16      0.785
+
+	count_MC16a_wjets17      0.358
+	sqrdWeight_MC16a_wjets17      0.065
+	fraction_MC16a_wjets17      1.000
+
+	count_MC16a_wjets18      0.000
+	sqrdWeight_MC16a_wjets18      0.000
+	fraction_MC16a_wjets18        nan
+
+	count_MC16a_wjets19      0.000
+	sqrdWeight_MC16a_wjets19      0.000
+	fraction_MC16a_wjets19      0.000
+
+	count_MC16a_wjets20      0.000
+	sqrdWeight_MC16a_wjets20      0.000
+	fraction_MC16a_wjets20        nan
+
+	count_MC16a_wjets21      0.000
+	sqrdWeight_MC16a_wjets21      0.000
+	fraction_MC16a_wjets21      0.000
+
+	count_MC16a_wjets22      0.000
+	sqrdWeight_MC16a_wjets22      0.000
+	fraction_MC16a_wjets22        nan
+
+	count_MC16a_wjets23      0.000
+	sqrdWeight_MC16a_wjets23      0.000
+	fraction_MC16a_wjets23        nan
+
+	count_MC16a_zjets1     -0.170
+	sqrdWeight_MC16a_zjets1      0.029
+	fraction_MC16a_zjets1      1.000
+
+	count_MC16a_zjets2      0.000
+	sqrdWeight_MC16a_zjets2      0.000
+	fraction_MC16a_zjets2        nan
+
+	count_MC16a_zjets3      0.000
+	sqrdWeight_MC16a_zjets3      0.000
+	fraction_MC16a_zjets3        nan
+
+	count_MC16a_zjets4      0.000
+	sqrdWeight_MC16a_zjets4      0.000
+	fraction_MC16a_zjets4        nan
+
+	count_MC16a_zjets5      0.028
+	sqrdWeight_MC16a_zjets5      0.001
+	fraction_MC16a_zjets5      1.000
+
+	count_MC16a_zjets6      0.000
+	sqrdWeight_MC16a_zjets6      0.000
+	fraction_MC16a_zjets6        nan
+
+	count_MC16a_zjets7      0.000
+	sqrdWeight_MC16a_zjets7      0.000
+	fraction_MC16a_zjets7        nan
+
+	count_MC16a_zjets8      0.000
+	sqrdWeight_MC16a_zjets8      0.000
+	fraction_MC16a_zjets8        nan
+
+	count_MC16a_zjets9      0.000
+	sqrdWeight_MC16a_zjets9      0.000
+	fraction_MC16a_zjets9        nan
+
+	count_MC16a_zjets10      0.000
+	sqrdWeight_MC16a_zjets10      0.000
+	fraction_MC16a_zjets10        nan
+
+	count_MC16a_zjets11      0.000
+	sqrdWeight_MC16a_zjets11      0.000
+	fraction_MC16a_zjets11        nan
+
+	count_MC16a_zjets12      0.000
+	sqrdWeight_MC16a_zjets12      0.000
+	fraction_MC16a_zjets12        nan
+
+	count_MC16d_diboson1      0.054
+	sqrdWeight_MC16d_diboson1      0.003
+	fraction_MC16d_diboson1      0.550
+
+	count_MC16d_diboson2      0.000
+	sqrdWeight_MC16d_diboson2      0.000
+	fraction_MC16d_diboson2        nan
+
+	count_MC16d_diboson3      0.000
+	sqrdWeight_MC16d_diboson3      0.000
+	fraction_MC16d_diboson3      0.000
+
+	count_MC16d_diboson4      0.233
+	sqrdWeight_MC16d_diboson4      0.027
+	fraction_MC16d_diboson4      1.000
+
+	count_MC16d_diboson5      0.019
+	sqrdWeight_MC16d_diboson5      0.000
+	fraction_MC16d_diboson5      0.288
+
+	count_MC16d_diboson6      0.001
+	sqrdWeight_MC16d_diboson6      0.000
+	fraction_MC16d_diboson6      0.795
+
+	count_MC16d_diboson7      0.057
+	sqrdWeight_MC16d_diboson7      0.001
+	fraction_MC16d_diboson7      0.721
+
+	count_MC16d_diboson8      0.476
+	sqrdWeight_MC16d_diboson8      0.005
+	fraction_MC16d_diboson8      0.547
+
+	count_MC16d_diboson9      0.651
+	sqrdWeight_MC16d_diboson9      0.005
+	fraction_MC16d_diboson9      0.569
+
+	count_MC16d_diboson10      0.000
+	sqrdWeight_MC16d_diboson10      0.000
+	fraction_MC16d_diboson10        nan
+
+	count_MC16d_diboson11      0.000
+	sqrdWeight_MC16d_diboson11      0.000
+	fraction_MC16d_diboson11      0.000
+
+	count_MC16d_diboson12      0.069
+	sqrdWeight_MC16d_diboson12      0.001
+	fraction_MC16d_diboson12      0.855
+
+	count_MC16d_singletop1      0.312
+	sqrdWeight_MC16d_singletop1      0.003
+	fraction_MC16d_singletop1      0.535
+
+	count_MC16d_singletop2      0.000
+	sqrdWeight_MC16d_singletop2      0.000
+	fraction_MC16d_singletop2        nan
+
+	count_MC16d_singletop3      0.000
+	sqrdWeight_MC16d_singletop3      0.000
+	fraction_MC16d_singletop3        nan
+
+	count_MC16d_singletop4      4.151
+	sqrdWeight_MC16d_singletop4      0.981
+	fraction_MC16d_singletop4      0.594
+
+	count_MC16d_singletop5      4.989
+	sqrdWeight_MC16d_singletop5      1.185
+	fraction_MC16d_singletop5      0.577
+
+	count_MC16d_singletop6      0.000
+	sqrdWeight_MC16d_singletop6      0.000
+	fraction_MC16d_singletop6      0.000
+
+	count_MC16d_singletop7      0.000
+	sqrdWeight_MC16d_singletop7      0.000
+	fraction_MC16d_singletop7        nan
+
+	count_MC16d_smallbkgs1      0.329
+	sqrdWeight_MC16d_smallbkgs1      0.006
+	fraction_MC16d_smallbkgs1      0.412
+
+	count_MC16d_smallbkgs2      0.130
+	sqrdWeight_MC16d_smallbkgs2      0.001
+	fraction_MC16d_smallbkgs2      0.301
+
+	count_MC16d_smallbkgs3      0.002
+	sqrdWeight_MC16d_smallbkgs3      0.000
+	fraction_MC16d_smallbkgs3      1.000
+
+	count_MC16d_smallbkgs4      0.008
+	sqrdWeight_MC16d_smallbkgs4      0.000
+	fraction_MC16d_smallbkgs4      0.224
+
+	count_MC16d_ttV1      1.821
+	sqrdWeight_MC16d_ttV1      0.016
+	fraction_MC16d_ttV1      0.498
+
+	count_MC16d_ttV2      7.280
+	sqrdWeight_MC16d_ttV2      0.168
+	fraction_MC16d_ttV2      0.579
+
+	count_MC16d_ttV3      0.371
+	sqrdWeight_MC16d_ttV3      0.014
+	fraction_MC16d_ttV3      0.272
+
+	count_MC16d_ttV4      0.010
+	sqrdWeight_MC16d_ttV4      0.000
+	fraction_MC16d_ttV4      0.149
+
+	count_MC16d_ttV5      0.028
+	sqrdWeight_MC16d_ttV5      0.000
+	fraction_MC16d_ttV5      0.341
+
+	count_MC16d_ttV6      0.069
+	sqrdWeight_MC16d_ttV6      0.001
+	fraction_MC16d_ttV6      0.552
+
+	count_MC16d_ttbar1     70.034
+	sqrdWeight_MC16d_ttbar1      2.612
+	fraction_MC16d_ttbar1      0.366
+
+	count_MC16d_ttbar2     10.290
+	sqrdWeight_MC16d_ttbar2      0.125
+	fraction_MC16d_ttbar2      0.448
+
+	count_MC16d_ttbar3      1.551
+	sqrdWeight_MC16d_ttbar3      0.009
+	fraction_MC16d_ttbar3      0.524
+
+	count_MC16d_ttbar4     43.399
+	sqrdWeight_MC16d_ttbar4     12.274
+	fraction_MC16d_ttbar4      0.305
+
+	count_MC16d_wjets1      0.000
+	sqrdWeight_MC16d_wjets1      0.000
+	fraction_MC16d_wjets1        nan
+
+	count_MC16d_wjets2     -0.261
+	sqrdWeight_MC16d_wjets2      0.068
+	fraction_MC16d_wjets2      1.000
+
+	count_MC16d_wjets3      0.000
+	sqrdWeight_MC16d_wjets3      0.000
+	fraction_MC16d_wjets3        nan
+
+	count_MC16d_wjets4      1.130
+	sqrdWeight_MC16d_wjets4      0.702
+	fraction_MC16d_wjets4      0.805
+
+	count_MC16d_wjets5      0.504
+	sqrdWeight_MC16d_wjets5      0.038
+	fraction_MC16d_wjets5      0.415
+
+	count_MC16d_wjets6     -0.340
+	sqrdWeight_MC16d_wjets6      0.116
+	fraction_MC16d_wjets6      1.000
+
+	count_MC16d_wjets7      0.284
+	sqrdWeight_MC16d_wjets7      0.080
+	fraction_MC16d_wjets7      0.566
+
+	count_MC16d_wjets8      0.617
+	sqrdWeight_MC16d_wjets8      0.080
+	fraction_MC16d_wjets8      1.165
+
+	count_MC16d_wjets9      0.000
+	sqrdWeight_MC16d_wjets9      0.000
+	fraction_MC16d_wjets9      0.000
+
+	count_MC16d_wjets10      0.000
+	sqrdWeight_MC16d_wjets10      0.000
+	fraction_MC16d_wjets10      0.000
+
+	count_MC16d_wjets11      0.000
+	sqrdWeight_MC16d_wjets11      0.000
+	fraction_MC16d_wjets11        nan
+
+	count_MC16d_wjets12      0.000
+	sqrdWeight_MC16d_wjets12      0.000
+	fraction_MC16d_wjets12        nan
+
+	count_MC16d_wjets13      0.000
+	sqrdWeight_MC16d_wjets13      0.000
+	fraction_MC16d_wjets13      0.000
+
+	count_MC16d_wjets14      0.111
+	sqrdWeight_MC16d_wjets14      0.044
+	fraction_MC16d_wjets14      0.164
+
+	count_MC16d_wjets15      0.000
+	sqrdWeight_MC16d_wjets15      0.000
+	fraction_MC16d_wjets15      0.000
+
+	count_MC16d_wjets16      0.657
+	sqrdWeight_MC16d_wjets16      0.236
+	fraction_MC16d_wjets16      0.682
+
+	count_MC16d_wjets17      0.762
+	sqrdWeight_MC16d_wjets17      0.103
+	fraction_MC16d_wjets17      1.000
+
+	count_MC16d_wjets18      0.000
+	sqrdWeight_MC16d_wjets18      0.000
+	fraction_MC16d_wjets18        nan
+
+	count_MC16d_wjets19      0.000
+	sqrdWeight_MC16d_wjets19      0.000
+	fraction_MC16d_wjets19      0.000
+
+	count_MC16d_wjets20      0.000
+	sqrdWeight_MC16d_wjets20      0.000
+	fraction_MC16d_wjets20        nan
+
+	count_MC16d_wjets21      0.000
+	sqrdWeight_MC16d_wjets21      0.000
+	fraction_MC16d_wjets21        nan
+
+	count_MC16d_wjets22      0.000
+	sqrdWeight_MC16d_wjets22      0.000
+	fraction_MC16d_wjets22        nan
+
+	count_MC16d_wjets23      0.000
+	sqrdWeight_MC16d_wjets23      0.000
+	fraction_MC16d_wjets23        nan
+
+	count_MC16d_wjets24      0.000
+	sqrdWeight_MC16d_wjets24      0.000
+	fraction_MC16d_wjets24      0.000
+
+	count_MC16d_wjets25      0.000
+	sqrdWeight_MC16d_wjets25      0.000
+	fraction_MC16d_wjets25        nan
+
+	count_MC16d_wjets26      0.000
+	sqrdWeight_MC16d_wjets26      0.000
+	fraction_MC16d_wjets26        nan
+
+	count_MC16d_zjets1      0.000
+	sqrdWeight_MC16d_zjets1      0.000
+	fraction_MC16d_zjets1        nan
+
+	count_MC16d_zjets2      0.000
+	sqrdWeight_MC16d_zjets2      0.000
+	fraction_MC16d_zjets2      0.000
+
+	count_MC16d_zjets3     -0.027
+	sqrdWeight_MC16d_zjets3      0.001
+	fraction_MC16d_zjets3      1.000
+
+	count_MC16d_zjets4      0.000
+	sqrdWeight_MC16d_zjets4      0.000
+	fraction_MC16d_zjets4        nan
+
+	count_MC16d_zjets5      0.000
+	sqrdWeight_MC16d_zjets5      0.000
+	fraction_MC16d_zjets5        nan
+
+	count_MC16d_zjets6      0.000
+	sqrdWeight_MC16d_zjets6      0.000
+	fraction_MC16d_zjets6      0.000
+
+	count_MC16d_zjets7      0.000
+	sqrdWeight_MC16d_zjets7      0.000
+	fraction_MC16d_zjets7        nan
+
+	count_MC16d_zjets8      0.000
+	sqrdWeight_MC16d_zjets8      0.000
+	fraction_MC16d_zjets8        nan
+
+	count_MC16d_zjets9      0.000
+	sqrdWeight_MC16d_zjets9      0.000
+	fraction_MC16d_zjets9        nan
+
+	count_MC16d_zjets10      0.000
+	sqrdWeight_MC16d_zjets10      0.000
+	fraction_MC16d_zjets10        nan
+
+	count_MC16d_zjets11      0.000
+	sqrdWeight_MC16d_zjets11      0.000
+	fraction_MC16d_zjets11     -0.000
+
+	count_MC16d_zjets12      0.000
+	sqrdWeight_MC16d_zjets12      0.000
+	fraction_MC16d_zjets12        nan
+
+	count_MC16d_zjets13      0.000
+	sqrdWeight_MC16d_zjets13      0.000
+	fraction_MC16d_zjets13        nan
+
+	count_MC16d_zjets14      0.000
+	sqrdWeight_MC16d_zjets14      0.000
+	fraction_MC16d_zjets14        nan
+
+	count_MC16d_zjets15      0.000
+	sqrdWeight_MC16d_zjets15      0.000
+	fraction_MC16d_zjets15        nan
+
+	count_MC16d_zjets16      0.000
+	sqrdWeight_MC16d_zjets16      0.000
+	fraction_MC16d_zjets16        nan
+
+	count_MC16d_zjets17      0.034
+	sqrdWeight_MC16d_zjets17      0.001
+	fraction_MC16d_zjets17      0.605
+
+	count_MC16d_zjets18      0.000
+	sqrdWeight_MC16d_zjets18      0.000
+	fraction_MC16d_zjets18        nan
+
+	count_MC16d_zjets19      0.000
+	sqrdWeight_MC16d_zjets19      0.000
+	fraction_MC16d_zjets19        nan
+
+	count_MC16e_diboson1      0.000
+	sqrdWeight_MC16e_diboson1      0.000
+	fraction_MC16e_diboson1        nan
+
+	count_MC16e_diboson2      0.000
+	sqrdWeight_MC16e_diboson2      0.000
+	fraction_MC16e_diboson2        nan
+
+	count_MC16e_diboson3      0.000
+	sqrdWeight_MC16e_diboson3      0.000
+	fraction_MC16e_diboson3     -0.000
+
+	count_MC16e_diboson4      0.121
+	sqrdWeight_MC16e_diboson4      0.015
+	fraction_MC16e_diboson4      1.000
+
+	count_MC16e_diboson5      0.000
+	sqrdWeight_MC16e_diboson5      0.000
+	fraction_MC16e_diboson5        nan
+
+	count_MC16e_diboson6      0.001
+	sqrdWeight_MC16e_diboson6      0.000
+	fraction_MC16e_diboson6      1.000
+
+	count_MC16e_diboson7      0.062
+	sqrdWeight_MC16e_diboson7      0.000
+	fraction_MC16e_diboson7      0.575
+
+	count_MC16e_diboson8      0.458
+	sqrdWeight_MC16e_diboson8      0.006
+	fraction_MC16e_diboson8      0.346
+
+	count_MC16e_diboson9      0.806
+	sqrdWeight_MC16e_diboson9      0.009
+	fraction_MC16e_diboson9      0.524
+
+	count_MC16e_diboson10      0.006
+	sqrdWeight_MC16e_diboson10      0.000
+	fraction_MC16e_diboson10      0.651
+
+	count_MC16e_diboson11      0.062
+	sqrdWeight_MC16e_diboson11      0.001
+	fraction_MC16e_diboson11      0.817
+
+	count_MC16e_singletop1      0.419
+	sqrdWeight_MC16e_singletop1      0.004
+	fraction_MC16e_singletop1      0.647
+
+	count_MC16e_singletop2      0.065
+	sqrdWeight_MC16e_singletop2      0.004
+	fraction_MC16e_singletop2      1.000
+
+	count_MC16e_singletop3      0.000
+	sqrdWeight_MC16e_singletop3      0.000
+	fraction_MC16e_singletop3      0.000
+
+	count_MC16e_singletop4      5.425
+	sqrdWeight_MC16e_singletop4      1.549
+	fraction_MC16e_singletop4      0.548
+
+	count_MC16e_singletop5      4.758
+	sqrdWeight_MC16e_singletop5      1.173
+	fraction_MC16e_singletop5      0.474
+
+	count_MC16e_singletop6      0.000
+	sqrdWeight_MC16e_singletop6      0.000
+	fraction_MC16e_singletop6      0.000
+
+	count_MC16e_singletop7      0.000
+	sqrdWeight_MC16e_singletop7      0.000
+	fraction_MC16e_singletop7        nan
+
+	count_MC16e_smallbkgs1      0.401
+	sqrdWeight_MC16e_smallbkgs1      0.001
+	fraction_MC16e_smallbkgs1      0.424
+
+	count_MC16e_smallbkgs2      0.167
+	sqrdWeight_MC16e_smallbkgs2      0.002
+	fraction_MC16e_smallbkgs2      0.245
+
+	count_MC16e_smallbkgs3      0.000
+	sqrdWeight_MC16e_smallbkgs3      0.000
+	fraction_MC16e_smallbkgs3     -0.000
+
+	count_MC16e_smallbkgs4      0.015
+	sqrdWeight_MC16e_smallbkgs4      0.000
+	fraction_MC16e_smallbkgs4      0.978
+
+	count_MC16e_ttV1      2.189
+	sqrdWeight_MC16e_ttV1      0.016
+	fraction_MC16e_ttV1      0.445
+
+	count_MC16e_ttV2     10.361
+	sqrdWeight_MC16e_ttV2      0.229
+	fraction_MC16e_ttV2      0.585
+
+	count_MC16e_ttV3      0.494
+	sqrdWeight_MC16e_ttV3      0.022
+	fraction_MC16e_ttV3      0.295
+
+	count_MC16e_ttV4      0.020
+	sqrdWeight_MC16e_ttV4      0.000
+	fraction_MC16e_ttV4      0.321
+
+	count_MC16e_ttV5      0.039
+	sqrdWeight_MC16e_ttV5      0.000
+	fraction_MC16e_ttV5      0.407
+
+	count_MC16e_ttV6      0.078
+	sqrdWeight_MC16e_ttV6      0.001
+	fraction_MC16e_ttV6      0.431
+
+	count_MC16e_ttbar1     92.494
+	sqrdWeight_MC16e_ttbar1      2.443
+	fraction_MC16e_ttbar1      0.365
+
+	count_MC16e_ttbar2     12.929
+	sqrdWeight_MC16e_ttbar2      0.082
+	fraction_MC16e_ttbar2      0.440
+
+	count_MC16e_ttbar3      2.156
+	sqrdWeight_MC16e_ttbar3      0.016
+	fraction_MC16e_ttbar3      0.538
+
+	count_MC16e_ttbar4     48.964
+	sqrdWeight_MC16e_ttbar4     13.302
+	fraction_MC16e_ttbar4      0.280
+
+	count_MC16e_wjets1      0.000
+	sqrdWeight_MC16e_wjets1      0.000
+	fraction_MC16e_wjets1        nan
+
+	count_MC16e_wjets2      0.290
+	sqrdWeight_MC16e_wjets2      0.084
+	fraction_MC16e_wjets2      1.000
+
+	count_MC16e_wjets3      0.000
+	sqrdWeight_MC16e_wjets3      0.000
+	fraction_MC16e_wjets3      0.000
+
+	count_MC16e_wjets4      0.979
+	sqrdWeight_MC16e_wjets4      0.873
+	fraction_MC16e_wjets4      0.802
+
+	count_MC16e_wjets5      1.203
+	sqrdWeight_MC16e_wjets5      0.218
+	fraction_MC16e_wjets5      0.629
+
+	count_MC16e_wjets6      0.200
+	sqrdWeight_MC16e_wjets6      0.040
+	fraction_MC16e_wjets6      1.000
+
+	count_MC16e_wjets7      0.671
+	sqrdWeight_MC16e_wjets7      0.228
+	fraction_MC16e_wjets7      0.495
+
+	count_MC16e_wjets8      0.644
+	sqrdWeight_MC16e_wjets8      0.182
+	fraction_MC16e_wjets8      0.712
+
+	count_MC16e_wjets9      0.209
+	sqrdWeight_MC16e_wjets9      0.055
+	fraction_MC16e_wjets9      0.705
+
+	count_MC16e_wjets10      0.000
+	sqrdWeight_MC16e_wjets10      0.000
+	fraction_MC16e_wjets10        nan
+
+	count_MC16e_wjets11      0.000
+	sqrdWeight_MC16e_wjets11      0.000
+	fraction_MC16e_wjets11      0.000
+
+	count_MC16e_wjets12      0.000
+	sqrdWeight_MC16e_wjets12      0.000
+	fraction_MC16e_wjets12        nan
+
+	count_MC16e_wjets13      0.378
+	sqrdWeight_MC16e_wjets13      0.143
+	fraction_MC16e_wjets13      1.000
+
+	count_MC16e_wjets14      0.526
+	sqrdWeight_MC16e_wjets14      0.036
+	fraction_MC16e_wjets14      0.572
+
+	count_MC16e_wjets15      0.000
+	sqrdWeight_MC16e_wjets15      0.000
+	fraction_MC16e_wjets15      0.000
+
+	count_MC16e_wjets16      1.038
+	sqrdWeight_MC16e_wjets16      0.404
+	fraction_MC16e_wjets16      1.287
+
+	count_MC16e_wjets17      1.268
+	sqrdWeight_MC16e_wjets17      0.192
+	fraction_MC16e_wjets17      0.713
+
+	count_MC16e_wjets18      0.037
+	sqrdWeight_MC16e_wjets18      0.031
+	fraction_MC16e_wjets18      0.087
+
+	count_MC16e_wjets19      0.000
+	sqrdWeight_MC16e_wjets19      0.000
+	fraction_MC16e_wjets19      0.000
+
+	count_MC16e_wjets20      0.072
+	sqrdWeight_MC16e_wjets20      0.005
+	fraction_MC16e_wjets20      0.586
+
+	count_MC16e_wjets21      0.000
+	sqrdWeight_MC16e_wjets21      0.000
+	fraction_MC16e_wjets21        nan
+
+	count_MC16e_wjets22      0.589
+	sqrdWeight_MC16e_wjets22      0.347
+	fraction_MC16e_wjets22      1.000
+
+	count_MC16e_wjets23     -0.111
+	sqrdWeight_MC16e_wjets23      0.012
+	fraction_MC16e_wjets23      1.000
+
+	count_MC16e_wjets24      0.000
+	sqrdWeight_MC16e_wjets24      0.000
+	fraction_MC16e_wjets24        nan
+
+	count_MC16e_wjets25      0.000
+	sqrdWeight_MC16e_wjets25      0.000
+	fraction_MC16e_wjets25        nan
+
+	count_MC16e_zjets1      0.177
+	sqrdWeight_MC16e_zjets1      0.031
+	fraction_MC16e_zjets1      1.000
+
+	count_MC16e_zjets2      0.010
+	sqrdWeight_MC16e_zjets2      0.001
+	fraction_MC16e_zjets2      0.259
+
+	count_MC16e_zjets3      0.000
+	sqrdWeight_MC16e_zjets3      0.000
+	fraction_MC16e_zjets3      0.000
+
+	count_MC16e_zjets4      0.000
+	sqrdWeight_MC16e_zjets4      0.000
+	fraction_MC16e_zjets4      0.000
+
+	count_MC16e_zjets5      0.024
+	sqrdWeight_MC16e_zjets5      0.001
+	fraction_MC16e_zjets5      1.000
+
+	count_MC16e_zjets6      0.000
+	sqrdWeight_MC16e_zjets6      0.000
+	fraction_MC16e_zjets6        nan
+
+	count_MC16e_zjets7      0.000
+	sqrdWeight_MC16e_zjets7      0.000
+	fraction_MC16e_zjets7        nan
+
+	count_MC16e_zjets8      0.000
+	sqrdWeight_MC16e_zjets8      0.000
+	fraction_MC16e_zjets8        nan
+
+	count_MC16e_zjets9      0.000
+	sqrdWeight_MC16e_zjets9      0.000
+	fraction_MC16e_zjets9        nan
+
+	count_MC16e_zjets10      0.000
+	sqrdWeight_MC16e_zjets10      0.000
+	fraction_MC16e_zjets10        nan
+
+	count_MC16e_zjets11      0.000
+	sqrdWeight_MC16e_zjets11      0.000
+	fraction_MC16e_zjets11      0.000
+
+	count_MC16e_zjets12      0.000
+	sqrdWeight_MC16e_zjets12      0.000
+	fraction_MC16e_zjets12        nan
+
+	count_MC16e_zjets13      0.000
+	sqrdWeight_MC16e_zjets13      0.000
+	fraction_MC16e_zjets13        nan
+
+	count_MC16e_zjets14      0.000
+	sqrdWeight_MC16e_zjets14      0.000
+	fraction_MC16e_zjets14        nan
+
+	count_MC16e_zjets15      0.000
+	sqrdWeight_MC16e_zjets15      0.000
+	fraction_MC16e_zjets15        nan
+
+	count_MC16e_zjets16      0.000
+	sqrdWeight_MC16e_zjets16      0.000
+	fraction_MC16e_zjets16        nan
+
+	count_MC16e_zjets17      0.000
+	sqrdWeight_MC16e_zjets17      0.000
+	fraction_MC16e_zjets17        nan
+
+	count_MC16e_zjets18      0.000
+	sqrdWeight_MC16e_zjets18      0.000
+	fraction_MC16e_zjets18        nan
+
+	count_MC16e_zjets19      0.000
+	sqrdWeight_MC16e_zjets19      0.000
+	fraction_MC16e_zjets19        nan
+
+Signal = 106.612266541 +/- 6.16644310761_stat +/- 21.3224533081_sys
+Background = 451.103287179 +/- 6.98144567857_stat +/- 90.2206574359_sys

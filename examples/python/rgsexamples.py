@@ -33,6 +33,7 @@ def fillZ1massZ2mass(cut):
     bntuple = Ntuple('../../data/ntuple_ZZ4L.root', 'Analysis')
     total = 0
     for ii, event in enumerate(bntuple):
+	print(ii)
         if cut(event): continue
 
         hb.Fill(event.Z1mass, event.Z2mass)
@@ -353,7 +354,7 @@ def writeSUSYResults(filename, varfilename, ntuple, variables,
     for name, cdir in cutdirs[2:]:    
         var = ntuple(name)
         bestcuts[name] = var
-        print name, var
+        #print name, var
         if type(var) == type(0.0):
             rec = '%3s %6.2f' % (cutdir[name], var)
             record = "\t%-10s\t%10s" % (name, rec)
