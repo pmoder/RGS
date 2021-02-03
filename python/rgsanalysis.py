@@ -112,11 +112,12 @@ def writeHZZResults(filename, varfilename, ntuple, variables,
     out = open(filename, 'w')
 
     s = totals[0][0]
+    print len(totals)
     b = 0
     bErr = 0
     diboson = 0
     singletop = 0
-    smallbkgs = 0
+    qcd = 0
     ttV = 0
     ttbar = 0
     wjets = 0
@@ -124,26 +125,25 @@ def writeHZZResults(filename, varfilename, ntuple, variables,
     for i in xrange(len(totals)-1):
         b += totals[i+1][0]
         bErr += totals[i+1][1]**2
-	if (0 <= i and i <= 13) or (95 <= i and i <= 108) or (189 <= i and i <= 202):
+	if (0 <= i and i <= 4) or (64 <= i and i <= 68) or (130 <= i and i <= 134):
 	    diboson += totals[i+1][0]
-	elif (14 <= i and i <= 20) or (109 <= i and i <= 115) or (203 <= i and i <= 209):
+	if (i <= 5 and i <= 13) or (69 <= i and i <= 77):
+	    qcd += totals[i+1][0]
+	elif (14 <= i and i <= 19) or (78 <= i and i <= 83) or (135 <= i and i <= 140):
 	    singletop += totals[i+1][0]
-	elif (21 <= i and i <= 24) or (116 == i) or (210 <= i and i <= 213):
-	    smallbkgs += totals[i+1][0]
-	elif (25 <= i and i <= 30) or (117 <= i and i <= 122) or (214 <= i and i <= 219):
+	elif (20 <= i and i <= 21) or (84 <= i and i <= 85) or (141 <= i and i <= 142):
 	    ttV += totals[i+1][0]
-	elif (31 <= i and i <= 34) or (123 <= i and i <= 126) or (220 <= i and i <= 223):
+	elif (22 <= i and i <= 26) or (86 <= i and i <= 90) or (143 <= i and i <= 147):
 	    ttbar += totals[i+1][0]
-	elif (35 <= i and i <= 66) or (127 <= i and i <= 157) or (224 <= i and i <= 258):
+	elif (27 <= i and i <= 49) or (91 <= i and i <= 114) or (148 <= i and i <= 189):
 	    wjets += totals[i+1][0]
-	elif (67 <= i and i <= 94) or (158 <= i and i <= 188) or (259 <= i and i <= 295):
+	elif (50 <= i and i <= 63) or (115 <= i and i <= 129) or (190 <= i and i <= 229):
 	    zjets += totals[i+1][0]
-	print(i)
     bErr = sqrt(bErr)
 
     print("diboson  : " + str(diboson))
+    print("qcd:     : " + str(qcd))
     print("singletop: " + str(singletop))
-    print("smallbkgs: " + str(smallbkgs))
     print("ttV      : " + str(ttV))
     print("ttbar    : " + str(ttbar))
     print("wjets    : " + str(wjets))
@@ -160,7 +160,7 @@ def writeHZZResults(filename, varfilename, ntuple, variables,
 
     out.write('%s\n' % record); print record
 
-    Z = signalSignificance(s, b, bErr+0.2*b)
+    Z = signalSignificance(s, b, 0.2*b)
 
     record = "\nZ values"
     out.write('%s\n' % record); print record
