@@ -1,0 +1,12 @@
+# bi-directional cuts
+#met				>
+#mT_b_MET_xMult_0_001		>
+tarR08Jet1_m			> 
+#tarR08Jet2_m			>
+#n_jetR08_WTagged		>
+mT_W2_R08_MET_TAR_xMult_0_001	>
+#mT_W1_R08_MET_TAR_xMult_0_001	>
+MinDPhi_W_R08_MET		>
+#MET_Significance		>
+HT				>
+#tarR12Jet1_m			<>
